@@ -12,6 +12,44 @@ body {
   margin: 0;
   padding: 40px 20px;
 }
+header {
+  margin-bottom: 40px;
+}
+.logo-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  border-radius: 50%;
+  background: radial-gradient(circle at 30% 30%, #00B7FF, #0096FF);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 2.5em;
+  font-weight: 700;
+  color: #fff;
+  box-shadow: 0 0 15px rgba(0, 150, 255, 0.7);
+  margin-right: 15px;
+}
+.title-group h1 {
+  color: #0096FF;
+  margin: 0;
+  font-size: 2.2em;
+}
+.subtitle {
+  color: #cdd5e3;
+  font-size: 1.1em;
+  margin: 0;
+}
+.description {
+  color: #cdd5e3;
+  font-size: 1.1em;
+  margin-top: 15px;
+  margin-bottom: 30px;
+}
 h1 {
   color: #0096FF;
   font-size: 2.5em;
@@ -81,9 +119,17 @@ footer {
 </style>
 </head>
 <body>
-<h1>Top 100 Tech Products &#9889;</h1>
-<p>Discover the hottest gadgets across every category — curated and linked with our Amazon affiliate tag so you can shop your favorites while supporting AutoPromote Tech.</p>
-<a class="button" href="https://www.amazon.com/?tag=autopromotete-20" target="_blank">Shop on Amazon</a>
+<header>
+  <div class="logo-container">
+    <div class="logo">AP</div>
+    <div class="title-group">
+      <h1>AutoPromote Tech</h1>
+      <p class="subtitle">Top 100 Tech Products</p>
+    </div>
+  </div>
+  <p class="description">Discover the hottest gadgets across every category — curated and linked with our Amazon affiliate tag so you can shop your favorites while supporting AutoPromote Tech.</p>
+  <a class="button" href="https://www.amazon.com/?tag=autopromotete-20" target="_blank">Shop on Amazon</a>
+</header>
 
 <!-- Smart Home Essentials Section -->
 <section class="product-section">
