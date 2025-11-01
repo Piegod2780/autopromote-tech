@@ -39,49 +39,39 @@ a.button {
 a.button:hover {
   background: #007acc;
 }
-.products {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 30px;
+/* Category section styles */
+.product-section {
   margin-top: 50px;
-}
-.product-card {
-  background-color: #1a2332;
-  border: 1px solid #28344e;
-  border-radius: 10px;
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.35);
-  padding: 25px;
-  width: 300px;
   text-align: left;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
 }
-.product-card h2 {
+.product-section h2 {
   color: #0096FF;
-  font-size: 1.5em;
-  margin-bottom: 10px;
+  font-size: 1.8em;
+  margin-bottom: 12px;
 }
-.product-card p {
-  color: #e1e8f0;
-  font-weight: bold;
-  margin-bottom: 10px;
+.product-list {
+  list-style: none;
+  padding: 0;
+  margin-bottom: 30px;
 }
-.product-card ul {
-  list-style: disc;
-  margin-left: 20px;
-  margin-bottom: 15px;
+.product-list li {
+  padding: 8px 12px;
+  border-bottom: 1px solid #28344e;
   color: #cdd5e3;
-  padding-left: 0;
 }
-.product-card ul li {
-  margin: 6px 0;
+.product-list li:last-child {
+  border-bottom: none;
 }
-.product-card a {
+.product-list li a {
   color: #0096FF;
-  text-decoration: underline;
+  text-decoration: none;
   font-weight: bold;
 }
-.product-card a:hover {
-  color: #007acc;
+.product-list li a:hover {
+  text-decoration: underline;
 }
 footer {
   margin-top: 60px;
@@ -91,38 +81,168 @@ footer {
 </style>
 </head>
 <body>
-<h1>Cool Tech Finds of the Week &#9889;</h1>
-<p>We scour Amazon and Walmart for gadgets that make life smarter &#8212; so you don&#8217;t have to.</p>
-<a class="button" href="#">View Today&#8217;s Picks</a>
+<h1>Top 100 Tech Products &#9889;</h1>
+<p>Discover the hottest gadgets across every category — curated and linked with our Amazon affiliate tag so you can shop your favorites while supporting AutoPromote Tech.</p>
 <a class="button" href="https://www.amazon.com/?tag=autopromotete-20" target="_blank">Shop on Amazon</a>
-<section class="products">
-  <div class="product-card">
-    <h2>Anker Nano Charger (45W)</h2>
-    <p><strong>Price:</strong> $34.99</p>
-    <ul>
-      <li>Quick Power Boost</li>
-      <li>Designed for Efficiency and Safety</li>
-      <li>Ultra-Portable and Sleek</li>
-      <li>Universal Charging</li>
-    </ul>
-    <!-- Updated to Amazon affiliate search with user tag -->
-    <a href="https://www.amazon.com/s?k=Anker+Nano+Charger+45W&amp;tag=autopromotete-20" target="_blank">Learn more</a>
-  </div>
-  <div class="product-card">
-    <h2>OnePlus Watch 3</h2>
-    <p><strong>Coming Soon!</strong></p>
-    <ul>
-      <li>60-second Health Check-In</li>
-      <li>Optimized Cardiovascular Monitoring</li>
-      <li>Sports Tracking</li>
-      <li>Smart Endurance - Up to 5-Day Battery</li>
-    </ul>
-    <!-- Updated to Amazon affiliate search with user tag -->
-    <a href="https://www.amazon.com/s?k=OnePlus+Watch+3&amp;tag=autopromotete-20" target="_blank">Learn more</a>
-  </div>
+
+<!-- Smart Home Essentials Section -->
+<section class="product-section">
+  <h2>Smart Home Essentials That Wow</h2>
+  <ul class="product-list">
+    <li><a href="https://www.amazon.com/s?k=Roborock+S8+MaxV+Ultra&tag=autopromotete-20" target="_blank">Roborock S8 MaxV Ultra</a> — $1,599.99</li>
+    <li><a href="https://www.amazon.com/s?k=Amazon+Echo+Hub+8+Smart+Home+Control+Panel&tag=autopromotete-20" target="_blank">Amazon Echo Hub 8" Smart Home Control Panel</a> — $179.99</li>
+    <li><a href="https://www.amazon.com/s?k=Philips+Hue+White+and+Color+Ambiance+Starter+Kit&tag=autopromotete-20" target="_blank">Philips Hue White and Color Ambiance Starter Kit</a> — $199.99</li>
+    <li><a href="https://www.amazon.com/s?k=Google+Nest+Learning+Thermostat+3rd+Gen&tag=autopromotete-20" target="_blank">Google Nest Learning Thermostat (3rd Gen)</a> — $249.99</li>
+    <li><a href="https://www.amazon.com/s?k=Ring+Video+Doorbell+Pro+2&tag=autopromotete-20" target="_blank">Ring Video Doorbell Pro 2</a> — $259.99</li>
+    <li><a href="https://www.amazon.com/s?k=TP-Link+Kasa+Smart+Plug+4+Pack&tag=autopromotete-20" target="_blank">TP-Link Kasa Smart Plug (4-Pack)</a> — $29.99</li>
+    <li><a href="https://www.amazon.com/s?k=iRobot+Roomba+j7+Plus&tag=autopromotete-20" target="_blank">iRobot Roomba j7+ Robot Vacuum</a> — $799.99</li>
+    <li><a href="https://www.amazon.com/s?k=Arlo+Pro+5S+2K&tag=autopromotete-20" target="_blank">Arlo Pro 5S 2K Security Camera</a> — $249.99</li>
+    <li><a href="https://www.amazon.com/s?k=Govee+Glide+Hexa+Pro&tag=autopromotete-20" target="_blank">Govee Glide Hexa Pro Light Panels</a> — $199.99</li>
+    <li><a href="https://www.amazon.com/s?k=Nanoleaf+Shapes+Hexagon+Starter+Kit&tag=autopromotete-20" target="_blank">Nanoleaf Shapes Hexagon Light Panels Starter Kit</a> — $199.99</li>
+  </ul>
 </section>
+
+<!-- Must-Have Mobile Tech Accessories Section -->
+<section class="product-section">
+  <h2>Must-Have Mobile Tech Accessories</h2>
+  <ul class="product-list">
+    <li><a href="https://www.amazon.com/s?k=Anker+Nano+Charger+45W&tag=autopromotete-20" target="_blank">Anker Nano Charger (45W)</a> — $34.99</li>
+    <li><a href="https://www.amazon.com/s?k=Apple+AirTag+4-Pack&tag=autopromotete-20" target="_blank">Apple AirTag (4-Pack)</a> — $99.00</li>
+    <li><a href="https://www.amazon.com/s?k=Samsung+T9+Portable+SSD+2TB&tag=autopromotete-20" target="_blank">Samsung T9 Portable SSD 2 TB</a> — $219.99</li>
+    <li><a href="https://www.amazon.com/s?k=Belkin+BoostCharge+Pro+3-in-1+Wireless+Charger&tag=autopromotete-20" target="_blank">Belkin BoostCharge Pro 3‑in‑1 Wireless Charger</a> — $139.99</li>
+    <li><a href="https://www.amazon.com/s?k=PopSocket+PopGrip&tag=autopromotete-20" target="_blank">PopSocket PopGrip</a> — $9.99</li>
+    <li><a href="https://www.amazon.com/s?k=OtterBox+Symmetry+Series+Phone+Case&tag=autopromotete-20" target="_blank">OtterBox Symmetry Series Phone Case</a> — $59.99</li>
+    <li><a href="https://www.amazon.com/s?k=Nomad+Kevlar+USB-C+Cable&tag=autopromotete-20" target="_blank">Nomad Kevlar USB‑C Cable</a> — $39.99</li>
+    <li><a href="https://www.amazon.com/s?k=Mophie+Powerstation+Portable+Power+Bank&tag=autopromotete-20" target="_blank">Mophie Powerstation Portable Power Bank</a> — $69.95</li>
+    <li><a href="https://www.amazon.com/s?k=JBL+Go+3+Portable+Waterproof+Speaker&tag=autopromotete-20" target="_blank">JBL Go 3 Portable Waterproof Speaker</a> — $39.95</li>
+    <li><a href="https://www.amazon.com/s?k=Anker+Soundcore+Liberty+4+NC+Earbuds&tag=autopromotete-20" target="_blank">Anker Soundcore Liberty 4 NC Earbuds</a> — $99.99</li>
+    <li><a href="https://www.amazon.com/s?k=Lenovo+Smart+Clock+2+Wireless+Charging+Dock&tag=autopromotete-20" target="_blank">Lenovo Smart Clock 2 with Wireless Charging Dock</a> — $79.99</li>
+  </ul>
+</section>
+
+<!-- Audio That Elevates Everything Section -->
+<section class="product-section">
+  <h2>Audio That Elevates Everything</h2>
+  <ul class="product-list">
+    <li><a href="https://www.amazon.com/s?k=Sony+WH-1000XM6+Wireless+Headphones&tag=autopromotete-20" target="_blank">Sony WH‑1000XM6 Wireless Noise Canceling Headphones (Black)</a> — $449.99</li>
+    <li><a href="https://www.amazon.com/s?k=JBL+Xtreme+4+Speakers&tag=autopromotete-20" target="_blank">JBL Xtreme 4 Speakers (Black)</a> — $379.95</li>
+    <li><a href="https://www.amazon.com/s?k=Sonos+Ace+Headphones&tag=autopromotete-20" target="_blank">Sonos Ace (Black)</a> — $399.00</li>
+    <li><a href="https://www.amazon.com/s?k=Sonos+Move+2&tag=autopromotete-20" target="_blank">Sonos Move 2 (White)</a> — $449.00</li>
+    <li><a href="https://www.amazon.com/s?k=Sony+WF-1000XM5+Earbuds&tag=autopromotete-20" target="_blank">Sony WF‑1000XM5 Wireless Noise Canceling Earbuds (Black)</a> — $329.99</li>
+    <li><a href="https://www.amazon.com/s?k=Bose+QuietComfort+Ultra+Headphones&tag=autopromotete-20" target="_blank">Bose QuietComfort Ultra Headphones (2nd Gen) Black</a> — $449.00</li>
+    <li><a href="https://www.amazon.com/s?k=Sonos+Roam+2+Portable+Bluetooth+Speaker&tag=autopromotete-20" target="_blank">Sonos Roam 2 Portable Bluetooth Speaker (Black)</a> — $179.00</li>
+    <li><a href="https://www.amazon.com/s?k=Sonos+Era+300+Speaker&tag=autopromotete-20" target="_blank">Sonos Era 300 Speaker (White)</a> — $479.00</li>
+    <li><a href="https://www.amazon.com/s?k=Bose+QuietComfort+Ultra+Wireless+Noise+Cancelling+Earbuds&tag=autopromotete-20" target="_blank">Bose QuietComfort Ultra Wireless Noise Cancelling Earbuds – Moonstone Blue</a> — $299.00</li>
+    <li><a href="https://www.amazon.com/s?k=Samsung+Q-Series+HW-Q990D&tag=autopromotete-20" target="_blank">Samsung Q‑Series HW‑Q990D/ZA 11.1.4 Channel Wireless Dolby Atmos Soundbar</a> — $1,499.99</li>
+    <li><a href="https://www.amazon.com/s?k=Sennheiser+Momentum+True+Wireless+4&tag=autopromotete-20" target="_blank">Sennheiser Momentum True Wireless 4 Earbuds (Black Graphite)</a> — $279.99</li>
+    <li><a href="https://www.amazon.com/s?k=Sony+ULT+Noise+Cancelling+Headphones&tag=autopromotete-20" target="_blank">Sony ULT Noise Cancelling Headphones (Black) Bundle with Finder Key Chain</a> — $198.00</li>
+    <li><a href="https://www.amazon.com/s?k=KEF+LSX+II+Wireless+HiFi+Speakers&tag=autopromotete-20" target="_blank">KEF LSX II Wireless HiFi Speakers – Carbon Black</a> — $1,499.99</li>
+    <li><a href="https://www.amazon.com/s?k=Apple+AirPods+Pro+2nd+Gen&tag=autopromotete-20" target="_blank">Apple AirPods Pro 2nd Gen with MagSafe Charging Case</a> — $249.99</li>
+  </ul>
+</section>
+
+<!-- Gaming and Streaming Gear Upgrades Section -->
+<section class="product-section">
+  <h2>Gaming and Streaming Gear Upgrades</h2>
+  <ul class="product-list">
+    <li><a href="https://www.amazon.com/s?k=Alienware+AW3225QF+Gaming+Monitor&tag=autopromotete-20" target="_blank">Alienware AW3225QF 31.6" 4K UHD 240 Hz Curved Gaming Monitor</a> — $1,199.99</li>
+    <li><a href="https://www.amazon.com/s?k=Amazon+Fire+TV+Stick+4K+Max+2023&tag=autopromotete-20" target="_blank">Amazon Fire TV Stick 4K Max (2023)</a> — $39.99</li>
+    <li><a href="https://www.amazon.com/s?k=Avermedia+GC553g2+Live+Gamer+Ultra+2.1&tag=autopromotete-20" target="_blank">Avermedia GC553g2 Live Gamer Ultra 2.1 Game Capture Card</a> — $209.99</li>
+    <li><a href="https://www.amazon.com/s?k=LG+OLED65C4PUA+65+4K+UHD+OLED+Evo+C4+Smart+TV&tag=autopromotete-20" target="_blank">LG OLED65C4PUA 65" 4K UHD OLED Evo C4 Smart TV</a> — $1,399.99</li>
+    <li><a href="https://www.amazon.com/s?k=ROG+Swift+OLED+PG32UCDM&tag=autopromotete-20" target="_blank">ROG Swift OLED PG32UCDM Gaming Monitor</a> — $1,099.00</li>
+    <li><a href="https://www.amazon.com/s?k=Nvidia+GeForce+RTX+4070+Super&tag=autopromotete-20" target="_blank">Nvidia GeForce RTX 4070 Super Graphics Card</a> — $974.63</li>
+    <li><a href="https://www.amazon.com/s?k=Asus+Azoth+Extreme+Gaming+Keyboard&tag=autopromotete-20" target="_blank">Asus Azoth Extreme Gaming Keyboard</a> — $476.99</li>
+    <li><a href="https://www.amazon.com/s?k=Steam+Deck+OLED+1TB&tag=autopromotete-20" target="_blank">Steam Deck OLED (1 TB)</a> — $700.72</li>
+    <li><a href="https://www.amazon.com/s?k=Sony+DualSense+Edge+Wireless+Controller+Midnight+Black&tag=autopromotete-20" target="_blank">Sony DualSense Edge Wireless Controller – Midnight Black</a> — $199.99</li>
+    <li><a href="https://www.amazon.com/s?k=Shure+MV7+Podcast+Microphone+Black&tag=autopromotete-20" target="_blank">Shure MV7+ Podcast XLR/USB Microphone (Black)</a> — $299.00</li>
+    <li><a href="https://www.amazon.com/s?k=Elgato+4K+X+Capture+Device&tag=autopromotete-20" target="_blank">Elgato 4K X Capture Device</a> — $249.99</li>
+    <li><a href="https://www.amazon.com/s?k=Elgato+Stream+Deck+MK.2&tag=autopromotete-20" target="_blank">Elgato Stream Deck MK.2</a> — $149.99</li>
+    <li><a href="https://www.amazon.com/s?k=Asus+ROG+Ally+X+Z1TB&tag=autopromotete-20" target="_blank">Asus ROG Ally X Z1TB Handheld Console System</a> — $899.99</li>
+    <li><a href="https://www.amazon.com/s?k=Logitech+MX+Brio+Ultra+HD+4K+Webcam&tag=autopromotete-20" target="_blank">Logitech MX Brio Ultra HD 4K Webcam</a> — $199.99</li>
+    <li><a href="https://www.amazon.com/s?k=PlayStation+5+Slim+Disc+Edition+Console&tag=autopromotete-20" target="_blank">PlayStation 5 Slim Disc Edition Console</a> — $549.99</li>
+    <li><a href="https://www.amazon.com/s?k=Alienware+AW2725DF+OLED+Gaming+Monitor&tag=autopromotete-20" target="_blank">Alienware AW2725DF OLED Gaming Monitor (26.7" QD‑OLED 360 Hz)</a> — $699.99</li>
+    <li><a href="https://www.amazon.com/s?k=Logitech+G+Pro+X+Superlight+2&tag=autopromotete-20" target="_blank">Logitech G Pro X Superlight 2 Lightspeed Wireless Gaming Mouse (White)</a> — $139.99</li>
+    <li><a href="https://www.amazon.com/s?k=Meta+Quest+3+512GB&tag=autopromotete-20" target="_blank">Meta Quest 3 – 512 GB</a> — $499.99</li>
+  </ul>
+</section>
+
+<!-- Cameras and Creator Tools Section -->
+<section class="product-section">
+  <h2>Cameras and Creator Tools</h2>
+  <ul class="product-list">
+    <li><a href="https://www.amazon.com/s?k=DJI+Osmo+Pocket+3&tag=autopromotete-20" target="_blank">DJI Osmo Pocket 3 Camera</a> — $799.00</li>
+    <li><a href="https://www.amazon.com/s?k=Insta360+X4+Action+Camera&tag=autopromotete-20" target="_blank">Insta360 X4 Action Camera</a> — $339.99</li>
+    <li><a href="https://www.amazon.com/s?k=Sony+Alpha+ZV-E10+II&tag=autopromotete-20" target="_blank">Sony Alpha ZV‑E10 II Mirrorless Camera – Black</a> — $1,098.00</li>
+    <li><a href="https://www.amazon.com/s?k=Sony+Alpha+A9+III+Body&tag=autopromotete-20" target="_blank">Sony Alpha A9 III Mirrorless Camera Body</a> — $6,399.99</li>
+    <li><a href="https://www.amazon.com/s?k=DJI+RS+4+Pro+Gimbal&tag=autopromotete-20" target="_blank">DJI RS 4 Pro Gimbal Stabilizer</a> — $869.00</li>
+    <li><a href="https://www.amazon.com/s?k=Hollyland+Lark+M2+Wireless+Microphone&tag=autopromotete-20" target="_blank">Hollyland Lark M2 Wireless Lavalier Microphone System</a> — $88.00</li>
+    <li><a href="https://www.amazon.com/s?k=Nikon+Z6+III+Mirrorless+Camera&tag=autopromotete-20" target="_blank">Nikon Z6 III Mirrorless Camera Body</a> — $2,199.95</li>
+    <li><a href="https://www.amazon.com/s?k=DJI+Air+3+Fly+More+Combo+RC-N2&tag=autopromotete-20" target="_blank">DJI Air 3 Fly More Combo‑RC‑N2</a> — $1,199.00</li>
+    <li><a href="https://www.amazon.com/s?k=Panasonic+Lumix+GH7+Body&tag=autopromotete-20" target="_blank">Panasonic Lumix GH7 Mirrorless Camera – Body Only</a> — $2,064.42</li>
+    <li><a href="https://www.amazon.com/s?k=Elgato+Key+Light+Duo+Bundle&tag=autopromotete-20" target="_blank">Elgato Key Light Duo Bundle Solid Pro Mini</a> — $584.99</li>
+    <li><a href="https://www.amazon.com/s?k=Fujifilm+X100VI+Digital+Camera&tag=autopromotete-20" target="_blank">Fujifilm X100VI Digital Camera (Silver)</a> — $1,999.95</li>
+    <li><a href="https://www.amazon.com/s?k=Blackmagic+Design+Pyxis+6K+Cinema+Camera&tag=autopromotete-20" target="_blank">Blackmagic Design Pyxis 6K Cinema Camera L‑Mount</a> — $2,495.00</li>
+    <li><a href="https://www.amazon.com/s?k=Panasonic+Lumix+S9+Mirrorless+Camera+Body+Only&tag=autopromotete-20" target="_blank">Panasonic Lumix S9 Mirrorless Camera (Body Only)</a> — $1,499.99</li>
+    <li><a href="https://www.amazon.com/s?k=Rode+Wireless+Pro+Microphone+System&tag=autopromotete-20" target="_blank">Rode Wireless Pro Wireless Microphone System</a> — $299.00</li>
+    <li><a href="https://www.amazon.com/s?k=Sony+ZV-E1+Mirrorless+Camera+Body&tag=autopromotete-20" target="_blank">Sony ZV‑E1 Mirrorless Camera Body – Black</a> — $2,099.99</li>
+    <li><a href="https://www.amazon.com/s?k=Insta360+Go+3S+64GB&tag=autopromotete-20" target="_blank">Insta360 Go 3S Standalone Camera 64 GB – Arctic White</a> — $239.99</li>
+    <li><a href="https://www.amazon.com/s?k=Razer+Kiyo+Pro+Ultra&tag=autopromotete-20" target="_blank">Razer Kiyo Pro Ultra – 4K Streaming Webcam with DSLR Video Quality</a> — $399.99</li>
+  </ul>
+</section>
+
+<!-- Wellness and Health Tech Section -->
+<section class="product-section">
+  <h2>Wellness and Health Tech</h2>
+  <ul class="product-list">
+    <li><a href="https://www.amazon.com/s?k=Theragun+Pro+Plus&tag=autopromotete-20" target="_blank">Theragun Pro Plus</a> — $649.99</li>
+    <li><a href="https://www.amazon.com/s?k=Samsung+Galaxy+Ring+Titanium+Silver&tag=autopromotete-20" target="_blank">Samsung Galaxy Ring – Titanium Silver</a> — $399.99</li>
+    <li><a href="https://www.amazon.com/s?k=Garmin+Venu+3+Whitestone&tag=autopromotete-20" target="_blank">Garmin Venu 3 Whitestone</a> — $449.99</li>
+    <li><a href="https://www.amazon.com/s?k=Fitbit+Charge+6&tag=autopromotete-20" target="_blank">Fitbit Charge 6 Fitness Tracker – Obsidian</a> — $119.95</li>
+    <li><a href="https://www.amazon.com/s?k=Withings+Body+Scan+Health+Station&tag=autopromotete-20" target="_blank">Withings Body Scan – Connected Health Station – Black</a> — $499.95</li>
+    <li><a href="https://www.amazon.com/s?k=Ultrahuman+Ring+Air+Gold&tag=autopromotete-20" target="_blank">Ultrahuman Ring Air – Air Gold (Size 10)</a> — $349.99</li>
+    <li><a href="https://www.amazon.com/s?k=Oura+Ring+Gen3+Heritage+Black&tag=autopromotete-20" target="_blank">Oura Ring Gen 3 – Heritage Black</a> — $199.00</li>
+    <li><a href="https://www.amazon.com/s?k=Withings+ScanWatch+2+38mm+Black&tag=autopromotete-20" target="_blank">Withings ScanWatch 2 – 38 mm Black</a> — $369.95</li>
+    <li><a href="https://www.amazon.com/s?k=Google+Pixel+Watch+3+45mm+LTE+Porcelain+Band&tag=autopromotete-20" target="_blank">Google Pixel Watch 3 (45 mm) LTE with Porcelain Band</a> — $399.99</li>
+  </ul>
+</section>
+
+<!-- Portable Work and Productivity Gear Section -->
+<section class="product-section">
+  <h2>Portable Work and Productivity Gear</h2>
+  <ul class="product-list">
+    <li><a href="https://www.amazon.com/s?k=Apple+MacBook+Air+13+M4+16GB+256GB+Midnight&tag=autopromotete-20" target="_blank">Apple MacBook Air – 13" – M4 – 16 GB RAM – 256 GB SSD – Midnight</a> — $999.00</li>
+    <li><a href="https://www.amazon.com/s?k=Logitech+MX+Master+3S&tag=autopromotete-20" target="_blank">Logitech MX Master 3S Wireless Performance Mouse – Black</a> — $109.99</li>
+    <li><a href="https://www.amazon.com/s?k=Samsung+2TB+T9+Portable+SSD+Gray&tag=autopromotete-20" target="_blank">Samsung 2 TB T9 Portable SSD (Gray)</a> — $219.99</li>
+    <li><a href="https://www.amazon.com/s?k=Logitech+MX+Keys+S+Keyboard&tag=autopromotete-20" target="_blank">Logitech MX Keys S Wireless Keyboard (Black)</a> — $119.99</li>
+    <li><a href="https://www.amazon.com/s?k=CalDigit+Thunderbolt+4+Pro+Dock&tag=autopromotete-20" target="_blank">CalDigit Thunderbolt 4 Pro Dock</a> — $329.95</li>
+    <li><a href="https://www.amazon.com/s?k=Apple+iPad+Pro+M4+2024+13+Wi-Fi+256GB+Space+Black&tag=autopromotete-20" target="_blank">Apple iPad Pro (M4, 2024) – 13" – Wi‑Fi – 256 GB – Space Black</a> — $1,299.00</li>
+    <li><a href="https://www.amazon.com/s?k=Microsoft+Surface+Pro+Copilot+PC+13+Snapdragon+X+Plus+16GB+512GB&tag=autopromotete-20" target="_blank">Microsoft Surface Pro Copilot+ PC Touchscreen 13" – Snapdragon X Plus – 16 GB RAM – 512 GB SSD (11th Edition) – Black</a> — $999.99</li>
+  </ul>
+</section>
+
+<!-- Cutting-Edge Innovations & Concepts Section -->
+<section class="product-section">
+  <h2>Cutting‑Edge Innovations &amp; Concepts</h2>
+  <ul class="product-list">
+    <li><a href="https://www.amazon.com/s?k=Xreal+Air+2+Pro+AR+Glasses&tag=autopromotete-20" target="_blank">Xreal Air 2 Pro AR Glasses Clear</a> — $279.00</li>
+    <li><a href="https://www.amazon.com/s?k=Xreal+Air+2+Ultra&tag=autopromotete-20" target="_blank">Xreal Air 2 Ultra</a> — $699.00</li>
+    <li><a href="https://www.amazon.com/s?k=Apple+Vision+Pro&tag=autopromotete-20" target="_blank">Apple Vision Pro Mixed Reality Headset</a> — $3,499.00</li>
+    <li><a href="https://www.amazon.com/s?k=Humane+AI+Pin&tag=autopromotete-20" target="_blank">Humane AI Pin Wearable Assistant</a> — $699.00</li>
+    <li><a href="https://www.amazon.com/s?k=Rabbit+r1+AI+Companion&tag=autopromotete-20" target="_blank">Rabbit r1 AI Companion</a> — $199.00</li>
+    <li><a href="https://www.amazon.com/s?k=Dyson+Zone+Air-Purifying+Headphones&tag=autopromotete-20" target="_blank">Dyson Zone Air‑Purifying Headphones</a> — $899.00</li>
+    <li><a href="https://www.amazon.com/s?k=Nothing+Ear+3+Earbuds&tag=autopromotete-20" target="_blank">Nothing Ear (3) Earbuds</a> — $149.00</li>
+    <li><a href="https://www.amazon.com/s?k=Flipper+Zero&tag=autopromotete-20" target="_blank">Flipper Zero Portable Multi‑Tool</a> — $169.00</li>
+    <li><a href="https://www.amazon.com/s?k=GoPro+HERO12+Black&tag=autopromotete-20" target="_blank">GoPro HERO12 Black</a> — $399.99</li>
+    <li><a href="https://www.amazon.com/s?k=DJI+Avata+2+FPV+Drone&tag=autopromotete-20" target="_blank">DJI Avata 2 FPV Drone</a> — $799.00</li>
+    <li><a href="https://www.amazon.com/s?k=Samsung+Galaxy+S24+Ultra&tag=autopromotete-20" target="_blank">Samsung Galaxy S24 Ultra</a> — $1,299.00</li>
+    <li><a href="https://www.amazon.com/s?k=iPhone+15+Pro+Max&tag=autopromotete-20" target="_blank">iPhone 15 Pro Max</a> — $1,199.00</li>
+    <li><a href="https://www.amazon.com/s?k=Google+Pixel+9+Pro&tag=autopromotete-20" target="_blank">Google Pixel 9 Pro</a> — $999.00</li>
+    <li><a href="https://www.amazon.com/s?k=Asus+ROG+Phone+8&tag=autopromotete-20" target="_blank">Asus ROG Phone 8</a> — $899.00</li>
+  </ul>
+</section>
+
 <footer>
-<p>AutoPromote Tech &#8212; The Future Finds You &#9889;</p>
+<p>AutoPromote Tech — The Future Finds You &#9889;</p>
 </footer>
 </body>
 </html>
